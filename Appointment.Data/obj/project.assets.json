@@ -696,37 +696,6 @@
             "rid": "win"
           }
         }
-      },
-      "Appointment.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.6",
-          "Microsoft.EntityFrameworkCore": "6.0.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
-        },
-        "compile": {
-          "bin/placeholder/Appointment.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Appointment.Data.dll": {}
-        }
-      },
-      "Appointment.Utility/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Appointment.Data": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6",
-          "Microsoft.Extensions.Identity.Core": "6.0.6"
-        },
-        "compile": {
-          "bin/placeholder/Appointment.Utility.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Appointment.Utility.dll": {}
-        }
       }
     }
   },
@@ -2038,22 +2007,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Appointment.Data/1.0.0": {
-      "type": "project",
-      "path": "../Appointment.Data/Appointment.Data.csproj",
-      "msbuildProject": "../Appointment.Data/Appointment.Data.csproj"
-    },
-    "Appointment.Utility/1.0.0": {
-      "type": "project",
-      "path": "../Appointment.Utility/Appointment.Utility.csproj",
-      "msbuildProject": "../Appointment.Utility/Appointment.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Appointment.Data >= 1.0.0",
-      "Appointment.Utility >= 1.0.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.6",
       "Microsoft.EntityFrameworkCore >= 6.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.6"
@@ -2065,11 +2023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\web\\Project\\Appointment\\Appointment\\Appointment.csproj",
-      "projectName": "Appointment",
-      "projectPath": "F:\\web\\Project\\Appointment\\Appointment\\Appointment.csproj",
+      "projectUniqueName": "F:\\web\\Project\\Appointment\\Appointment.Data\\Appointment.Data.csproj",
+      "projectName": "Appointment.Data",
+      "projectPath": "F:\\web\\Project\\Appointment\\Appointment.Data\\Appointment.Data.csproj",
       "packagesPath": "C:\\Users\\mhose\\.nuget\\packages\\",
-      "outputPath": "F:\\web\\Project\\Appointment\\Appointment\\obj\\",
+      "outputPath": "F:\\web\\Project\\Appointment\\Appointment.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mhose\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2085,14 +2043,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "F:\\web\\Project\\Appointment\\Appointment.Data\\Appointment.Data.csproj": {
-              "projectPath": "F:\\web\\Project\\Appointment\\Appointment.Data\\Appointment.Data.csproj"
-            },
-            "F:\\web\\Project\\Appointment\\Appointment.Utility\\Appointment.Utility.csproj": {
-              "projectPath": "F:\\web\\Project\\Appointment\\Appointment.Utility\\Appointment.Utility.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -2105,6 +2056,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.6, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.6, )"
@@ -2131,9 +2086,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

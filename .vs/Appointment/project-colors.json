@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "868e3a1b-9e02-4e6c-8656-f214c3e8102f": {
+      "ProjectGuid": "868e3a1b-9e02-4e6c-8656-f214c3e8102f",
+      "DisplayName": "Appointment",
+      "ColorIndex": 0
+    },
+    "292d226e-2d81-42cb-a603-d3e19ecf9fd5": {
+      "ProjectGuid": "292d226e-2d81-42cb-a603-d3e19ecf9fd5",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "4a4acbae-d568-4134-96c7-83a03bf1e807": {
+      "ProjectGuid": "4a4acbae-d568-4134-96c7-83a03bf1e807",
+      "DisplayName": "Appointment.Models",
+      "ColorIndex": 2
+    },
+    "bac31186-f905-4290-8edf-709a3f899c4d": {
+      "ProjectGuid": "bac31186-f905-4290-8edf-709a3f899c4d",
+      "DisplayName": "Appointment.Data",
+      "ColorIndex": 3
+    },
+    "625734dc-b0b1-4354-beef-bb0fcd036020": {
+      "ProjectGuid": "625734dc-b0b1-4354-beef-bb0fcd036020",
+      "DisplayName": "Appointment.Services",
+      "ColorIndex": 4
+    },
+    "53d56766-331e-460f-b6cd-6c19a00d9161": {
+      "ProjectGuid": "53d56766-331e-460f-b6cd-6c19a00d9161",
+      "DisplayName": "Appointment.Utility",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

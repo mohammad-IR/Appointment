@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment", "Appointment\Appointment.csproj", "{868E3A1B-9E02-4E6C-8656-F214C3E8102F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Appointment", "Appointment\Appointment.csproj", "{868E3A1B-9E02-4E6C-8656-F214C3E8102F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment.Models", "Appointment.Models\Appointment.Models.csproj", "{4A4ACBAE-D568-4134-96C7-83A03BF1E807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment.Data", "Appointment.Data\Appointment.Data.csproj", "{BAC31186-F905-4290-8EDF-709A3F899C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment.Services", "Appointment.Services\Appointment.Services.csproj", "{625734DC-B0B1-4354-BEEF-BB0FCD036020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appointment.Utility", "Appointment.Utility\Appointment.Utility.csproj", "{53D56766-331E-460F-B6CD-6C19A00D9161}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{868E3A1B-9E02-4E6C-8656-F214C3E8102F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{868E3A1B-9E02-4E6C-8656-F214C3E8102F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{868E3A1B-9E02-4E6C-8656-F214C3E8102F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4ACBAE-D568-4134-96C7-83A03BF1E807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4ACBAE-D568-4134-96C7-83A03BF1E807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4ACBAE-D568-4134-96C7-83A03BF1E807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4ACBAE-D568-4134-96C7-83A03BF1E807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC31186-F905-4290-8EDF-709A3F899C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC31186-F905-4290-8EDF-709A3F899C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC31186-F905-4290-8EDF-709A3F899C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC31186-F905-4290-8EDF-709A3F899C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625734DC-B0B1-4354-BEEF-BB0FCD036020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625734DC-B0B1-4354-BEEF-BB0FCD036020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625734DC-B0B1-4354-BEEF-BB0FCD036020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625734DC-B0B1-4354-BEEF-BB0FCD036020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D56766-331E-460F-B6CD-6C19A00D9161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D56766-331E-460F-B6CD-6C19A00D9161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D56766-331E-460F-B6CD-6C19A00D9161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D56766-331E-460F-B6CD-6C19A00D9161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
