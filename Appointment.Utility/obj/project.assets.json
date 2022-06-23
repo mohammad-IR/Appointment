@@ -701,6 +701,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Appointment.Models": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.6",
           "Microsoft.EntityFrameworkCore": "6.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
@@ -710,6 +711,21 @@
         },
         "runtime": {
           "bin/placeholder/Appointment.Data.dll": {}
+        }
+      },
+      "Appointment.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore": "6.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.6"
+        },
+        "compile": {
+          "bin/placeholder/Appointment.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Appointment.Models.dll": {}
         }
       }
     }
@@ -2027,11 +2043,17 @@
       "type": "project",
       "path": "../Appointment.Data/Appointment.Data.csproj",
       "msbuildProject": "../Appointment.Data/Appointment.Data.csproj"
+    },
+    "Appointment.Models/1.0.0": {
+      "type": "project",
+      "path": "../Appointment.Models/Appointment.Models.csproj",
+      "msbuildProject": "../Appointment.Models/Appointment.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Appointment.Data >= 1.0.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.6",
       "Microsoft.EntityFrameworkCore >= 6.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.6",
@@ -2081,6 +2103,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.6, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.6, )"

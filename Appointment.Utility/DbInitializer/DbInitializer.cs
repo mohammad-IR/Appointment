@@ -1,4 +1,5 @@
 ﻿using Appointment.Data;
+using Appointment.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -40,7 +41,28 @@ namespace Appointment.Utility.DbInitializer
             {
 
             }
+            
+            if (!_roleManager.RoleExistsAsync(SD.Role_Admin).GetAwaiter().GetResult())
+            {
+                _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).GetAwaiter().GetResult();
+                _roleManager.CreateAsync(new IdentityRole(SD.Role_User)).GetAwaiter().GetResult();
 
+                //if roles are not created, then we will create admin user as well
+
+                _userManager.CreateAsync(new ApplicationUser
+                {
+                    UserName = "m.ilaghi5273@gmail.com",
+                    FirstName = "mohammad sadegh",
+                    LastName = "Ilaghi hoseini",
+                    Email = "m.ilaghi5273@gmail.com",
+                    PhoneNumber = "09162785273",
+                }, "Admin123*").GetAwaiter().GetResult();
+
+                ApplicationUser user = _db.ApplicationUsers.FirstOrDefault(u => u.Email == "m.ilaghi5273@gmail.com");
+
+                _userManager.AddToRoleAsync(user, SD.Role_Admin).GetAwaiter().GetResult();
+
+            }
             return;
         }
     }

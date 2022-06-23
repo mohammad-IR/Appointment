@@ -2,7 +2,81 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="container-fluid">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+   </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="@Url.ActionLink("Index", "Home")images/image_background.jpg" style="filter: blur(8px);-webkit-filter: blur(8px);" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+
+        <h1 class="link-info">آرایش مردانه</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5 text-center">
+                    <p class="text-white">شما میتوانید با 
+                            ثبت نام و درخواست وقت مورد نظر خورد را بگیرید و راس ساعت 
+                            مورد نظر خود را برای آرایش خود وارد کنید
+                    </p>
+                </div>
+             </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</div>
+<div class="container-fluid my-5 p-5" style="background-color: rgb(51, 255, 255)">
+    <div class="container">
+        <div class="row justify-content-between">
+         
+            <div class="col-sm-12 col-md-6">
+                <h3 class="text-muted">
+                    درباره ما
+                </h3>
+                <p class="text-start text-muted">
+                    ما از شعبه کرمان شروع کرده و تا شعبه های سراسر کشور گسترتش داده ایم و به دنبال 
+                    کسب رضایت مشتری میباشیم
+                </p>
+                <hr />
+                <ul class="list-unstyled ">
+                    <li class="mb-0">
+                        <span class="text-primary h5 me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                      <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"></path>
+                                    </svg>
+                                </span>
+                                <span class="text-muted">
+                                    رضایت مشتری 
+                                </span>
+                    </li>
+                    <li class="mb-0">
+                        <span class="text-primary h5 me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"></path>
+                                      <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"></path>
+                                    </svg>
+                                </span>
+                                <span class="text-muted">
+                                    به روز بودن
+                                </span>
+                    </li>
+                </ul>
+            </div>
+           <div class="col-lg-5 col-md-6 order-1 order-md-2"">
+               <img  style="width:100%; height:100%;" src="https://www.vectorkhazana.com/assets/images/products/Hair_Dresser_SVG.png" />
+              </div>
+        </div>
+    </div>
+</div>
+<div class="container my-5">
+    <h4 class="text-center text-muted">ما را در اینجا پیدا کنید</h4>
+    <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.7229594854043!2d55.92119631489534!3d30.38722380925345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f00f41ac8ff10bb%3A0xc63096df214e78a1!2sVali-e-Asr%20University%20of%20Rafsanjan!5e0!3m2!1sen!2sus!4v1655994019597!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </div>

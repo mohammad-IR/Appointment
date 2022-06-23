@@ -1,9 +1,11 @@
 ﻿using Appointment.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Appointment.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -15,6 +17,8 @@ namespace Appointment.Controllers
 
         public IActionResult Index()
         {
+            
+
             return View();
         }
 

@@ -1,0 +1,58 @@
+﻿@model LoginViewModel
+
+@{
+    Layout = "";
+}
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+
+     <title class="text-center">ورود به سیستم</title>
+   
+  </head>
+  <body class="bg-dark">
+      <nav class="nav m-3 text-center justify-content-center">
+          <a asp-controller="Home" asp-action="Index" class="nav-link" aria-current="page" >ضفحه اصلی</a>
+
+      </nav>
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-sm-12 col-md-5 border rounded p-3 bg-light" style="margin-top: 100px;">
+                  <h3 class="mb-5">ورود به سیستم</h3>
+                  <div class="text-danger" asp-validation-summary="All"></div>
+                  <form asp-action="Login"  method="post">
+                      <div class="mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" type="email" class="form-control" aria-describedby="emailHelp">
+                         <span asp-validation-for="Email" class="text-danger"></span>
+                      </div>
+                      <div class="mb-3">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" type="password" class="form-control">
+                         <span asp-validation-for="Password" class="text-danger"></span>
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input asp-for="RememberMe" type="checkbox" class="form-check-input" >
+                        <label asp-for="RememberMe" class="form-check-label"></label>
+                      </div>
+                      <input hidden value="@TempData["returnUrl"]" asp-for="ReturnUrl" />
+                      <div class="mb-3">
+                          <a asp-action="Register" class="link-primery">ثبت نام</a>
+                      </div>
+                      <button type="submit" class="btn btn-primary">ورود</button>
+                </form>
+              </div>
+          </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </body>
+</html>

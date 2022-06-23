@@ -1,0 +1,14 @@
+F:\web\Project\Appointment\Appointment.Models\bin\Debug\net6.0\Appointment.Models.deps.json
+F:\web\Project\Appointment\Appointment.Models\bin\Debug\net6.0\Appointment.Models.runtimeconfig.json
+F:\web\Project\Appointment\Appointment.Models\bin\Debug\net6.0\Appointment.Models.dll
+F:\web\Project\Appointment\Appointment.Models\bin\Debug\net6.0\ref\Appointment.Models.dll
+F:\web\Project\Appointment\Appointment.Models\bin\Debug\net6.0\Appointment.Models.pdb
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\Appointment.Models.csproj.AssemblyReference.cache
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\Appointment.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\Appointment.Models.AssemblyInfoInputs.cache
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\Appointment.Models.AssemblyInfo.cs
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\Appointment.Models.csproj.CoreCompileInputs.cache
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\Appointment.Models.dll
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\ref\Appointment.Models.dll
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\Appointment.Models.pdb
+F:\web\Project\Appointment\Appointment.Models\obj\Debug\net6.0\Appointment.Models.genruntimeconfig.cache
