@@ -99,7 +99,7 @@ i write services of web in this file and for this project i have only one Class 
 5. CreateAsync
 6. RemoveAsync
 
-and this method create or delete or search appointment more of that don't user in web becouse don't 
+and this method create or delete or search appointment more of that don't use in web becouse don't 
 have time but can by use in search by Ajax.
 ## Utitlities 
 this part is for Enum or Roles for Example *SD* write two role user and admin and use another part
@@ -113,7 +113,7 @@ this part is for Enum or Roles for Example *SD* write two role user and admin an
 
 ## controller
 
-in controller a have three. 
+in controller a have three class and every class do one thing. 
 ### AccountController
 part first is AccountController and for Authentication and two method `Register`
 and `Login`. 
