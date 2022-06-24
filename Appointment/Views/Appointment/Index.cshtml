@@ -1,0 +1,39 @@
+﻿@using Appointment.Utility
+@{
+    ViewData["Title"] = "وقت ها";
+    int i = 1;
+}
+<div class="container">
+
+    <div class="row justify-content-center">
+        <div class="col">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">نام</th>
+                  <th scope="col">تاریخ</th>
+                  <th scope="col">کنسل</th>
+                </tr>
+              </thead>
+              <tbody>
+                    @if (Model != null)
+                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.User.FirstName @item.User.LastName</td>
+                                <td>@item.AppontmentTime</td>
+                                <td><a class="btn btn-outline-danger" asp-action="Delete" asp-route-Id="@item.Id">کنسل</a></td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <p class="text-center text-danger">موجود نیست</p>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

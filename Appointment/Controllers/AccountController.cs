@@ -2,6 +2,7 @@
 using Appointment.Models;
 using Appointment.Models.ViewModel;
 using Appointment.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -35,7 +36,6 @@ namespace Appointment.Controllers
 
                 if (result.Succeeded)
                 {
-                    
                     if (user.ReturnUrl != null)
                     {
                         return LocalRedirect(user.ReturnUrl);
@@ -106,5 +106,11 @@ namespace Appointment.Controllers
         {
             return View();
         }
+        [Authorize(Roles = "Admin")]
+        public IActionResult GetUsers()
+        {
+            var users = _db.ApplicationUsers;
+            return View(users);
+        }   
     }
 }

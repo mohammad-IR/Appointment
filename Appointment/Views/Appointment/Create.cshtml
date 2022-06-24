@@ -1,0 +1,13 @@
+﻿@model AppointmentTime
+<div class="container">
+    <div class="row">
+        <div class="text-danger" asp-validation-summary="All" ></div>
+        <form action="Create" method="post">
+          <div class="mb-3">
+            <label asp-for="AppontmentTime" class="form-label"></label>
+            <input asp-for="AppontmentTime" class="form-control" >
+          </div>
+          <button type="submit" class="btn btn-primary">ثبت</button>
+        </form>
+    </div>
+</div>

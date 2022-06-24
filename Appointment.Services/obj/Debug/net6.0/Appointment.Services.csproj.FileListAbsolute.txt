@@ -12,3 +12,10 @@ F:\web\Project\Appointment\Appointment.Services\obj\Debug\net6.0\Appointment.Ser
 F:\web\Project\Appointment\Appointment.Services\obj\Debug\net6.0\ref\Appointment.Services.dll
 F:\web\Project\Appointment\Appointment.Services\obj\Debug\net6.0\Appointment.Services.pdb
 F:\web\Project\Appointment\Appointment.Services\obj\Debug\net6.0\Appointment.Services.genruntimeconfig.cache
+F:\web\Project\Appointment\Appointment.Services\bin\Debug\net6.0\Appointment.Data.dll
+F:\web\Project\Appointment\Appointment.Services\bin\Debug\net6.0\Appointment.Models.dll
+F:\web\Project\Appointment\Appointment.Services\bin\Debug\net6.0\Appointment.Data.pdb
+F:\web\Project\Appointment\Appointment.Services\bin\Debug\net6.0\Appointment.Models.pdb
+F:\web\Project\Appointment\Appointment.Services\obj\Debug\net6.0\Appointment.Services.csproj.CopyComplete
+F:\web\Project\Appointment\Appointment.Services\bin\Debug\net6.0\Appointment.Utility.dll
+F:\web\Project\Appointment\Appointment.Services\bin\Debug\net6.0\Appointment.Utility.pdb

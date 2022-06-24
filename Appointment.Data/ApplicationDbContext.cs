@@ -15,5 +15,7 @@ namespace Appointment.Data
         {
         }
         public DbSet<ApplicationUser> ApplicationUsers{ get; set; }
+        public DbSet<AppointmentTime> AppointmentTimes{ get; set; }
+
     }
 }

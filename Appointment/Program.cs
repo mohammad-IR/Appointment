@@ -1,4 +1,6 @@
 using Appointment.Data;
+using Appointment.Services;
+using Appointment.Services.Interfaces;
 using Appointment.Utility.DbInitializer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +27,7 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+builder.Services.AddScoped<IAppoinmentTimeServices, AppoinmentTimeServices>();
 
 var app = builder.Build();
 

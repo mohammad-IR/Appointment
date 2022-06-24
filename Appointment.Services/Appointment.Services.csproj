@@ -16,4 +16,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Appointment.Data\Appointment.Data.csproj" />
+    <ProjectReference Include="..\Appointment.Utility\Appointment.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

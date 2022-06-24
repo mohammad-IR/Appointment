@@ -70,3 +70,11 @@ F:\web\Project\Appointment\Appointment\obj\Debug\net6.0\Appointment.pdb
 F:\web\Project\Appointment\Appointment\obj\Debug\net6.0\Appointment.genruntimeconfig.cache
 F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Appointment.Models.dll
 F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Appointment.Models.pdb
+F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Appointment.Services.dll
+F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Appointment.Services.pdb
+F:\web\Project\Appointment\Appointment\obj\Debug\net6.0\Appointment.MvcApplicationPartsAssemblyInfo.cs
+F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\web\Project\Appointment\Appointment\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
