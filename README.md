@@ -128,3 +128,13 @@ this class have three route
 this class for search by ajax but don't implement on front.
 
 
+## View file 
+in this file render html and css `share folder` have file main and another file automatic extend this file
+but main file is `Layout.cshtml`.
+
+## Json file
+config file for example connection to database config is in this file 
+and use this config in `program.cs`.
+## file root
+`css` , `javascripts` , `images`, `libraries` is in this part (*files public*).
+ 
